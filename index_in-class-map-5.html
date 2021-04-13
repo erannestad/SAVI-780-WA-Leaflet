@@ -1,0 +1,60 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Map - Class 3 </title>
+
+    <!-- call Google font families-->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Libre+Franklin|Lato|Noto+Sans|New+Tegomin|Tangerine|Inconsolata|Roboto|Teko|Comfortaa|Oxygen|Domine|Cinzel|Knewave|Creepster|Share|Rye|Langar|Chonburi|Corben|Gugi|Mirza|Pompiere|Baumans|Codystar|Kufam|Lemon|" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Load Leaflet from CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Load Leaflet AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous"></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <!-- https://esri.github.io/esri-leaflet/examples/ -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.1/dist/esri-leaflet.js"></script>
+
+    <!-- load jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- load papaparse -- used for parsing CSV data -->    
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+
+    <!-- load stamen-providers.js -->
+    <script src="libraries/leaflet-providers.js"></script>
+
+    <!-- load mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+
+
+  </head>
+
+  <body>
+
+    <div class="content-container">
+        <div id="map"></div>
+    </div>
+
+
+    <!-- Data Layers -->
+    <script src="data/sample.geojson"></script>
+    <script src="data/tl_2019_53_tract.geojson"></script>
+    <!-- <script src="data/tl_2019_53_tract_hydro-dif.geojson"></script> -->
+
+
+    <!-- Main Script -->
+    <script src="scripts/script.js"></script>
+  </body>
+           
+</html>

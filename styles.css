@@ -1,0 +1,14 @@
+
+#map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	/*border: solid 1px;*/
+	border-color: #280e3b;
+}
+
+.leaflet-overlay-pane {
+    mix-blend-mode: multiply;
+}
